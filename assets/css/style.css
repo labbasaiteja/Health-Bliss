@@ -14,7 +14,7 @@ body {
 }
 
 a {
-  color: #1b18c8
+  color: #9bd8fc;
   font-weight: bolder;
 }
 
@@ -46,13 +46,13 @@ h1, h2, h3, h4, h5, h6 {
   width: 40px;
   height: 40px;
   border-radius: 50px;
-  background: #ef6603;
+  background: #3d66ec;
   color: #fff;
   transition: all 0.4s;
 }
 
 .back-to-top i:hover {
-  background: #fc7c1f;
+  background: #0f0cc0;
   color: #fff;
 }
 
@@ -1549,7 +1549,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #162384;
+  background: #091ba5;
   color: #fff;
   font-size: 14px;
   text-align: center;
@@ -1606,5 +1606,5 @@ section {
   font-size: 13px;
 }
 .icon-box.aos-init.aos-animate {
-  background-color: #77f0be;
+  background-color: #b4e5f8;
 }
