@@ -14,7 +14,7 @@ body {
 }
 
 a {
-  color: #1b18c8
+  color: #9bd8fc;
   font-weight: bolder;
 }
 
@@ -46,13 +46,13 @@ h1, h2, h3, h4, h5, h6 {
   width: 40px;
   height: 40px;
   border-radius: 50px;
-  background: #ef6603;
+  background: #3d66ec;
   color: #fff;
   transition: all 0.4s;
 }
 
 .back-to-top i:hover {
-  background: #fc7c1f;
+  background: #0f0cc0;
   color: #fff;
 }
 
@@ -759,12 +759,12 @@ section {
 
 .services .icon-box:hover {
   transform: translateY(-10px);
-  box-shadow: 0 2px 35px 0 rgba(68, 88, 144, 0.2);
+  box-shadow: 0 2px 35px 0 rgba(255, 255, 255, 0.993);
 }
 
 .services .icon {
   position: absolute;
-  left: -20px;
+  left: 0px;
   top: calc(50% - 30px);
 }
 
@@ -782,16 +782,16 @@ section {
 }
 
 .services .title a {
-  color: #2a2c39;
+  color: #173a18;
   transition: ease-in-out 0.3s;
 }
 
 .services .title a:hover {
-  color: #ef6603;
+  color: #000000;
 }
 
 .services .description {
-  font-size: 14px;
+  font-size: 16px;
   margin-left: 40px;
   line-height: 24px;
   margin-bottom: 0;
@@ -1549,7 +1549,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #14151c;
+  background: #091ba5;
   color: #fff;
   font-size: 14px;
   text-align: center;
@@ -1604,4 +1604,7 @@ section {
 
 #footer .credits {
   font-size: 13px;
+}
+.icon-box.aos-init.aos-animate {
+  background-color: #b4e5f8;
 }
