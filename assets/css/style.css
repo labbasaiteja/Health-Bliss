@@ -692,7 +692,7 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: #2e3980;
+  background: rgb(27 40 124);
   padding: 80px 0;
 }
 
@@ -792,7 +792,7 @@ section {
 
 .services .description {
   font-size: 14px;
-  margin-left: 40px;
+  margin-left: 28px;
   line-height: 24px;
   margin-bottom: 0;
 }
@@ -836,11 +836,11 @@ section {
 }
 
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
-  color: #ef6603;
+  color: #1920ec;
 }
 
 .portfolio #portfolio-flters li.filter-active::before, .portfolio #portfolio-flters li.filter-active::after {
-  color: #ef6603;
+  color: #1920ec;
 }
 
 .portfolio .portfolio-item {
@@ -1005,6 +1005,10 @@ section {
   .testimonials {
     margin: 30px 10px;
   }
+}
+.col-lg-3:hover {
+  
+  cursor: pointer;
 }
 
 /*--------------------------------------------------------------
@@ -1266,11 +1270,11 @@ section {
 
 .contact .info i {
   font-size: 20px;
-  color: #ef6603;
+  color: #3849c7;
   float: left;
   width: 44px;
   height: 44px;
-  background: #ffecde;
+  background: #e9eeff;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1375,7 +1379,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"] {
-  background: #ef6603;
+  background: #271be6;
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -1384,7 +1388,11 @@ section {
 }
 
 .contact .php-email-form button[type="submit"]:hover {
-  background: #fc8129;
+  background: white;
+  border: 3px solid #271be6;
+  color:#271be6;
+  font-weight: bolder;
+
 }
 
 @-webkit-keyframes animate-loading {
@@ -1547,8 +1555,10 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #14151c;
-  color: #fff;
+  background:linear-gradient(
+    0deg
+    , rgb(189, 246, 255) 0%, rgb(146, 248, 187) 100%);
+  color: #222e85;
   font-size: 14px;
   text-align: center;
   padding: 30px 0;
@@ -1557,7 +1567,7 @@ section {
 #footer h3 {
   font-size: 36px;
   font-weight: 700;
-  color: #fff;
+  color: #222e85;
   position: relative;
   font-family: "Poppins", sans-serif;
   padding: 0;
