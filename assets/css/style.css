@@ -1604,5 +1604,9 @@ section {
   font-size: 13px;
 }
 main#main {
+<<<<<<< HEAD
   background-color: #ffffff;
+=======
+  background-color: #f5f7f9;
+>>>>>>> 40ca700f5f9d4f894fe9ad0ed5008593758babdc
 }
