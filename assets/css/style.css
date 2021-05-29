@@ -1178,7 +1178,7 @@ section {
 # Team
 --------------------------------------------------------------*/
 .team {
-  background: #fff;
+  background: rgb(236 239 239);;
   padding: 60px 0;
 }
 
@@ -1262,7 +1262,6 @@ section {
 --------------------------------------------------------------*/
 .contact .info {
   width: 100%;
-  background: #fff;
 }
 
 .contact .info i {
@@ -1305,7 +1304,6 @@ section {
 
 .contact .php-email-form {
   width: 100%;
-  background: #fff;
 }
 
 .contact .php-email-form .form-group {
@@ -1604,4 +1602,7 @@ section {
 
 #footer .credits {
   font-size: 13px;
+}
+main#main {
+  background-color: #f5f7f9;
 }
