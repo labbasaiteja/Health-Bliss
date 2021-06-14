@@ -1,9 +1,3 @@
-/**
-* Template Name: Techie - v4.2.0
-* Template URL: https://bootstrapmade.com/techie-free-skin-bootstrap-3/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
 /*--------------------------------------------------------------
 # General
@@ -433,19 +427,22 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 100vh;
-  background: url(../img/bg.jpg) center center no-repeat;
+  height: 70%;
+  background-repeat: no-repeat;
+  background: url(../img/banner.jpg) center center no-repeat;
   background-size: cover;
+  background-position: center;
+  position: relative;
 }
 
 #hero .container, #hero .container-fluid {
-  padding-top: 40px;/* 84px;*/
-  padding-bottom:10%;
+  padding-top: 110px;/* 84px;*/
+  padding-bottom:0%;
 }
 
 #hero h1 {
   margin: 0;
-  font-size: 52px;
+  font-size: 55px;
   font-weight: 700;
   line-height: 64px;
   color: #fff;
@@ -453,8 +450,8 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero h2 {
   color: rgba(255, 255, 255, 0.8);
-  margin: 10px 5px 5px -108px;
-  font-size: 47px;
+  margin: -40px 0px 5px -250px;
+  font-size: 50px;
 }
 
 #hero .btn-get-started {
@@ -481,9 +478,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 h3{
   font-weight: lighter;
-  margin: 3px 5px 5px -368px;
+  letter-spacing: 1px;
+  margin: 5px 50px 100px -550px;
   line-break: auto;
-  font-size: 20px;
+  font-size: 25px;
   color: whitesmoke;
 
 }
@@ -565,20 +563,72 @@ section {
 }
 
 .section-bg {
-  background-color: #f9f8ff;
+  background-color: rgb(190, 190, 190);
 }
 
 .section-title {
   text-align: center;
-  padding-bottom: 30px;
+  padding-bottom: 15px;
+}
+
+*{
+  margin: 0px;
+  padding: 0;
+  font-family: "montserrat",sans-serif;
+}
+body{
+  background: lightyellow;
+}
+/* .container{
+  background: url(bg.jpg) no-repeat center;
+  background-size: cover;
+  padding: 100px 40px;
+  text-align: center;
+  color: white;
+} */
+/* .container p {
+  max-width: 600px;
+  margin: 20px 20px;
+  font-size: 15px;
+  font-weight: 300;
+} */
+.email-box{
+  height: 40px;
+  justify-content: center;
+  display: inline-flex; /*its better to use inline-flex*/
+  padding-bottom: 0px;
+}
+.email-box i{
+  background: #2f3542;
+  width: 40px;
+  line-height: 40px;
+}
+.tbox,.btn{
+  border: none;
+  outline: none;
+}
+.tbox{
+  width: 0px;
+  transition: 0.6s;
+}
+.email-box:hover > .tbox,.tbox:focus{
+  width: 260px;
+  padding: 0 10px;
+}
+.btn{
+  background: #2f3542;
+  color: white;
+  padding: 0 10px;
+  text-transform: uppercase;
+  cursor: pointer;
 }
 
 .section-title h2 {
-  font-size: 32px;
+  font-size: 35px;
   font-weight: bold;
   text-transform: uppercase;
   margin-bottom: 20px;
-  padding-bottom: 20px;
+  padding-bottom:20px;
   position: relative;
 }
 
@@ -586,7 +636,7 @@ section {
   content: '';
   position: absolute;
   display: block;
-  width: 50px;
+  width: 0px;
   height: 3px;
   background: #5846f9;
   bottom: 0;
@@ -1323,30 +1373,30 @@ p{
   color: #444444;
   text-align: center;
   box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
-  padding: 20px 0 30px 0;
+  padding: 20px 0 25px 0;
   background: #fff;
 }
 .section-bg{
-  padding:52px 0px;
+  padding:50px 0px;
 }
 .contact .info-box i {
-  font-size: 32px;
+  font-size: 50px;
   color: #5846f9;
-  border-radius: 50%;
-  padding: 8px;
+  border-radius: 60%;
+  padding: 0px;
 }
 
 .contact .info-box h3 {
   font-size: 20px;
   color: #2c4964;
-  font-weight: 700;
-  margin: 10px 0;
+  font-weight: 600;
+  margin: 0px 0;
 }
 
 .contact .info-box p {
-  padding: 0;
-  line-height: 24px;
-  font-size: 17px;
+  padding: 0px;
+  line-height: 0px;
+  font-size: 20px;
   margin-bottom: 0;
 }
 
@@ -1359,7 +1409,7 @@ p{
 .contact .php-email-form .error-message {
   display: none;
   color: #fff;
-  background: #ed3c0d;
+  background: darkblue;
   text-align: left;
   padding: 15px;
   font-weight: 600;
@@ -1372,7 +1422,7 @@ p{
 .contact .php-email-form .sent-message {
   display: none;
   color: #fff;
-  background: #18d26e;
+  background: darkblue;
   text-align: center;
   padding: 15px;
   font-weight: 600;
