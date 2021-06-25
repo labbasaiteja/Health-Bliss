@@ -133,7 +133,7 @@ h1, h2, h3, h4, h5, h6 {
   color: white;
 }
 
-.nav-menu .drop-down ul {
+/* .nav-menu .drop-down ul {
   display: block;
   position: absolute;
   left: 0;
@@ -147,9 +147,9 @@ h1, h2, h3, h4, h5, h6 {
   transition: ease all 0.3s;
   border-radius: 15px;
   margin-top: 5px;
-}
+} */
 
-.nav-menu .drop-down:hover > ul {
+/* .nav-menu .drop-down:hover > ul {
   opacity: 1;
   top: 100%;
   visibility: visible;
@@ -199,9 +199,9 @@ h1, h2, h3, h4, h5, h6 {
   font-family: IcoFont;
   position: absolute;
   right: 15px;
-}
+} */
 
-@media (max-width: 1366px) {
+/* @media (max-width: 1366px) {
   .nav-menu .drop-down .drop-down ul {
     left: -90%;
   }
@@ -211,7 +211,7 @@ h1, h2, h3, h4, h5, h6 {
   .nav-menu .drop-down .drop-down > a:after {
     content: "\ea9d";
   }
-}
+} */
 
 /* Mobile Navigation */
 .mobile-nav-toggle {

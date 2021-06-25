@@ -153,8 +153,42 @@ h1, h2, h3, h4, h5, h6 {
 /**
 * Desktop Navigation 
 */
-.navbar {
+
+.navbar, .navbar * {
+  margin: 0;
   padding: 0;
+  list-style: none;
+}
+
+.navbar > ul > li {
+  position: relative;
+  white-space: nowrap;
+  float: left;
+}
+
+.navbar a {
+  display: block;
+  font-weight: bolder;
+  position: relative;
+  color: #fbfbfb;
+  padding: 7px 15px;
+  margin-left: 5px;
+  transition: 0.3s;
+  font-size: 16px;
+  border-radius: 50px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.navbar a:hover, .navbar .active > a, .navbar li:hover > a {
+  background: rgb(25 32 236);
+  text-decoration: none;
+  color: rgb(255, 250, 250);
+}
+
+/* .navbar {
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 .navbar ul {
@@ -170,7 +204,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar > ul > li {
-  padding: 10px 0 10px 67px;
+  position: relative;
+  white-space: nowrap;
+  float: left;
 }
 
 .navbar a {
@@ -314,7 +350,7 @@ h1, h2, h3, h4, h5, h6 {
   .navbar .dropdown .dropdown:hover > ul {
     left: -100%;
   }
-}
+} */
 
 /**
 * Mobile Navigation 
@@ -563,7 +599,7 @@ section {
 }
 
 .section-bg {
-  background-color: rgb(190, 190, 190);
+  background-color: rgb(168, 167, 167);
 }
 
 .section-title {
@@ -577,7 +613,7 @@ section {
   font-family: "montserrat",sans-serif;
 }
 body{
-  background: lightyellow;
+  background: rgb(230, 230, 175);
 }
 /* .container{
   background: url(bg.jpg) no-repeat center;
@@ -599,7 +635,7 @@ body{
   padding-bottom: 0px;
 }
 .email-box i{
-  background: #2f3542;
+  background: lightskyblue;
   width: 40px;
   line-height: 40px;
 }
@@ -616,9 +652,9 @@ body{
   padding: 0 10px;
 }
 .btn{
-  background: #2f3542;
+  background: lightskyblue;
   color: white;
-  padding: 0 10px;
+  padding: 0 .10px;
   text-transform: uppercase;
   cursor: pointer;
 }
@@ -638,7 +674,7 @@ body{
   display: block;
   width: 0px;
   height: 3px;
-  background: #5846f9;
+  background: #ffffff;
   bottom: 0;
   left: calc(50% - 25px);
 }
@@ -737,7 +773,7 @@ p{
   text-align: center;
   padding: 70px 20px 80px 20px;
   transition: all ease-in-out 0.3s;
-  background: #fff;
+  background: rgb(255, 255, 255);
 }
 
 .services .icon-box .icon {
@@ -775,7 +811,7 @@ p{
 }
 
 .services .icon-box h4 a {
-  color: #2c4964;
+  color: #fbfbfb;
   transition: ease-in-out 0.3s;
 }
 
@@ -879,7 +915,7 @@ p{
 
 .features .icon-box p {
   font-size: 15px;
-  color: #848484;
+  color: #f6f6f6;
   margin-left: 60px;
 }
 
@@ -893,7 +929,7 @@ p{
 /*--------------------------------------------------------------
 # Testimonials
 --------------------------------------------------------------*/
-.testimonials .testimonial-item {
+/* .testimonials .testimonial-item {
   box-sizing: content-box;
   min-height: 320px;
 }
@@ -972,12 +1008,12 @@ p{
   .testimonials {
     margin: 30px 10px;
   }
-}
+} */
 
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
-.portfolio .portfolio-item {
+/* .portfolio .portfolio-item {
   margin-bottom: 30px;
 }
 
@@ -1096,12 +1132,12 @@ p{
 .portfolio .portfolio-wrap:hover .portfolio-links {
   opacity: 1;
   bottom: calc(50% - 50px);
-}
+} */
 
 /*--------------------------------------------------------------
 # Portfolio Details
 --------------------------------------------------------------*/
-.portfolio-details {
+/* .portfolio-details {
   padding-top: 40px;
 }
 
@@ -1161,12 +1197,12 @@ p{
 
 .portfolio-details .portfolio-description p {
   padding: 0;
-}
+} */
 
 /*--------------------------------------------------------------
 # Pricing
 --------------------------------------------------------------*/
-.pricing .box {
+/* .pricing .box {
   padding: 20px;
   background: #fff;
   text-align: center;
@@ -1271,12 +1307,12 @@ p{
   padding: 1px 0 3px 0;
   background: #5846f9;
   color: #fff;
-}
+} */
 
 /*--------------------------------------------------------------
 # Frequently Asked Questions
 --------------------------------------------------------------*/
-.faq {
+/* .faq {
   background: linear-gradient(42deg, #5846f9 0%, #7b27d8 100%);
 }
 
@@ -1364,7 +1400,7 @@ p{
   .faq .faq-list {
     padding: 0;
   }
-}
+} */
 
 /*--------------------------------------------------------------
 # Contact
